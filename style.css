@@ -91,7 +91,7 @@ h2 {
 }
 
 #interests li:hover {
-  background: #000;
+  background: #ffffff;
   color: #fff;
   border-color: #000;
   transform: translateY(-2px);
@@ -122,7 +122,7 @@ nav {
   align-items: center;
   margin-bottom: 48px;
   padding: 16px 24px;
-  background: #fff;
+  background: #f8f3f5;
   border: 1px solid #e0e0e0;
   border-radius: 12px;
 }
@@ -145,7 +145,7 @@ nav h1 {
 }
 
 .nav-li a {
-  color: #666;
+  color: #ff8c8c;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
@@ -158,11 +158,11 @@ nav h1 {
 
 .nav-li a:hover {
   background: #ff73c9;
-  color: #fff;
+  color: #ffc4df;
 }
 /* Portfolio styles */
 .content h1 {
-  color: black;
+  color: rgb(250, 222, 222);
 }
 
 #portfolio {
@@ -185,19 +185,19 @@ nav h1 {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #444;
+  color: #ffd1d1;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
-  background: #fff;
+  background: #fdd6d6;
   border: 1px solid #e0e0e0;
   border-radius: 12px;
   transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
 }
 
 #portfolio a:hover {
-  background: #000;
-  color: #fff;
+  background: #ffbdbd;
+  color: #f7d9d9;
   transform: translateX(4px);
 }
 
