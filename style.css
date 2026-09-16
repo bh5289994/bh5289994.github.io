@@ -40,19 +40,18 @@ h2 {
   font-weight: 900;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  color: #f84f88;
+  color: #000;
 }
 
 .content > p {
   margin: 0;
-  color: #f581b1;
+  color: #999;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   line-height: 1.4;
 }
-
-  #interests {
+#interests {
   margin-top: 32px;
   width: 100%;
 }
@@ -91,7 +90,7 @@ h2 {
 }
 
 #interests li:hover {
-  background: #ffffff;
+  background: #000;
   color: #fff;
   border-color: #000;
   transform: translateY(-2px);
@@ -122,7 +121,7 @@ nav {
   align-items: center;
   margin-bottom: 48px;
   padding: 16px 24px;
-  background: #f8f3f5;
+  background: #fff;
   border: 1px solid #e0e0e0;
   border-radius: 12px;
 }
@@ -133,7 +132,7 @@ nav h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #f178a1;
+  color: #000;
 }
 
 #nav-ul {
@@ -145,7 +144,7 @@ nav h1 {
 }
 
 .nav-li a {
-  color: #ff8c8c;
+  color: #666;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
@@ -157,12 +156,12 @@ nav h1 {
 }
 
 .nav-li a:hover {
-  background: #ff73c9;
-  color: #ffc4df;
+  background: #000;
+  color: #fff;
 }
 /* Portfolio styles */
 .content h1 {
-  color: rgb(250, 222, 222);
+  color: black;
 }
 
 #portfolio {
@@ -185,19 +184,19 @@ nav h1 {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #ffd1d1;
+  color: #444;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
-  background: #fdd6d6;
+  background: #fff;
   border: 1px solid #e0e0e0;
   border-radius: 12px;
   transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
 }
 
 #portfolio a:hover {
-  background: #ffbdbd;
-  color: #f7d9d9;
+  background: #000;
+  color: #fff;
   transform: translateX(4px);
 }
 
